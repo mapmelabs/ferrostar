@@ -51,7 +51,10 @@ dependencies {
     implementation libs.androidx.compose.ui.tooling
     implementation libs.androidx.compose.material3
 
-    api libs.maplibre.compose
+//    api libs.maplibre.compose
+    api files('/Users/ianthetechie/maplibre-compose-playground/compose/build/outputs/aar/compose-release.aar')
+    api 'org.maplibre.gl:android-sdk:11.6.1'
+    api 'org.maplibre.gl:android-plugin-annotation-v9:3.0.2'
 
     implementation project(':core')
     implementation project(':composeui')

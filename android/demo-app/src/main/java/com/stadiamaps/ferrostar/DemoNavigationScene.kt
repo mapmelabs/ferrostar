@@ -17,7 +17,6 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.mapbox.mapboxsdk.geometry.LatLng
 import com.maplibre.compose.camera.MapViewCamera
 import com.maplibre.compose.rememberSaveableMapViewCamera
 import com.maplibre.compose.symbols.Circle
@@ -34,6 +33,7 @@ import com.stadiamaps.ferrostar.maplibreui.views.DynamicallyOrientingNavigationV
 import kotlin.math.min
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import org.maplibre.android.geometry.LatLng
 import uniffi.ferrostar.GeographicCoordinate
 import uniffi.ferrostar.Waypoint
 import uniffi.ferrostar.WaypointKind
